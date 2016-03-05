@@ -12,6 +12,6 @@ class DeliciousController: Controller() {
     }
 
     fun recentBookmarks(): ObservableList<DeliciousBookmark> =
-            api.get("recent?count=").list().toModel()
+            api.get("recent").list().toModel()
 }
 

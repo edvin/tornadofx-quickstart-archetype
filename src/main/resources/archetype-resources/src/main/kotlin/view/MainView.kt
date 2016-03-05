@@ -17,6 +17,7 @@ class MainView : View() {
         title = "TornadoFX Sample App"
 
         with (table) {
+            // Create table columns and bind to the data model
             column("Description", DeliciousBookmark::descriptionProperty).prefWidth = 500.0
             column("URL", DeliciousBookmark::urlProperty).prefWidth = 300.0
 
