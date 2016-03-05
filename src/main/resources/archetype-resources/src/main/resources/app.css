@@ -1,0 +1,5 @@
+.heading {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-padding: 15;
+}

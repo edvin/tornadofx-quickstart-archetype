@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="tornadofx-quickstart">
+    <fileSets>
+        <fileSet filtered="true" packaged="true">
+            <directory>src/main/kotlin</directory>
+            <includes>
+                <include>**/*.kt</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="true">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.fxml</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="false" packaged="false">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.css</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
