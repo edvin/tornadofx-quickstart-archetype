@@ -1,11 +1,11 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.control.Label?>
-<?import tornadofx.FXTableView?>
+<?import javafx.scene.control.TableView?>
 <BorderPane xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
     <top>
-        <Label text="Recent Delicious Bookmarks" styleClass="heading"/>
+        <Label text="%heading" styleClass="heading"/>
     </top>
     <center>
-        <FXTableView fx:id="table" />
+        <TableView fx:id="table" />
     </center>
 </BorderPane>
