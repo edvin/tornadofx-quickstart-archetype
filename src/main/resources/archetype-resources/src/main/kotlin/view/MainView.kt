@@ -16,12 +16,12 @@ class MainView : View() {
     val controller: DeliciousController by inject()
 
     init {
-        title = messages.get("title")
+        title = messages["title"]
 
         with (table) {
             // Create table columns and bind to the data model
-            column(messages.get("description"), DeliciousBookmark::descriptionProperty).prefWidth = 500.0
-            column(messages.get("url"), DeliciousBookmark::urlProperty).prefWidth = 300.0
+            column(messages["description"], DeliciousBookmark::descriptionProperty).prefWidth = 500.0
+            column(messages["url"], DeliciousBookmark::urlProperty).prefWidth = 300.0
 
             // Handle double click on row
             onUserSelect { browse(selectedItem) }
