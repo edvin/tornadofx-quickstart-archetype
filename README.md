@@ -1,5 +1,7 @@
 # TornadoFX Maven Quick Start Archetype
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/no.tornado/tornadofx-quickstart-archetype/badge.svg)](https://search.maven.org/#search|ga|1|no.tornado.tornadofx-quickstart-archetype)
+
 Creates a simple [TornadoFX](https://github.com/edvin/tornadofx) project to get you started 
 quickly.
 
