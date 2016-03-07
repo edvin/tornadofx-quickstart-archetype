@@ -24,7 +24,7 @@ class MainView : View() {
             column(messages["url"], DeliciousBookmark::urlProperty).prefWidth = 300.0
 
             // Handle double click on row
-            onUserSelect { browse(selectedItem) }
+            onUserSelect { browse(it) }
 
             // Load data from the controller
             asyncItems { controller.recentBookmarks() }
@@ -35,7 +35,7 @@ class MainView : View() {
      * Open the selected bookmark in a new browser window
      */
     private fun browse(bookmark: DeliciousBookmark) = Stage().apply {
-        log.log(INFO, "Browsing ${bookmark.url}...")
+        log.info { "Browsing ${bookmark.url}..."}
 
         val webView = WebView().apply { engine.load(bookmark.url) }
         scene = Scene(webView)
