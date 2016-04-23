@@ -9,7 +9,7 @@
 
     <properties>
         <kotlin.version>1.0.1</kotlin.version>
-        <tornadofx.version>1.4.0</tornadofx.version>
+        <tornadofx.version>1.4.3</tornadofx.version>
     </properties>
 
     <dependencies>

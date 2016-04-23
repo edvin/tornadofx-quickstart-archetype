@@ -10,7 +10,7 @@ quickly.
 ```bash
 mvn archetype:generate -DarchetypeGroupId=no.tornado \
   -DarchetypeArtifactId=tornadofx-quickstart-archetype \
-  -DarchetypeVersion=1.0.2
+  -DarchetypeVersion=1.0.3
 ```
 
 ### Run the application
