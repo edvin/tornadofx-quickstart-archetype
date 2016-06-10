@@ -8,7 +8,7 @@ class DeliciousController: Controller() {
     val api: Rest by inject()
 
     init {
-        api.baseURI = "http://feeds.delicious.com/v2/json/"
+        api.baseURI = "http://feeds.del.icio.us/v2/json"
     }
 
     fun recentBookmarks(): ObservableList<DeliciousBookmark> =
