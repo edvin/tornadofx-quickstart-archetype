@@ -4,9 +4,7 @@ import tornadofx.App
 import tornadofx.importStylesheet
 import ${package}.view.MainView
 
-class MyApp: App() {
-    override val primaryView = MainView::class
-
+class MyApp: App(MainView::class) {
     init {
         importStylesheet(Styles::class)
     }
