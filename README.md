@@ -10,7 +10,7 @@ quickly.
 ```bash
 mvn archetype:generate -DarchetypeGroupId=no.tornado \
   -DarchetypeArtifactId=tornadofx-quickstart-archetype \
-  -DarchetypeVersion=1.5.4
+  -DarchetypeVersion=1.5.6
 ```
 
 ### Run the application
@@ -28,17 +28,6 @@ gradle init
 ```
 
 This will build the jar, you might still want to customize the build process for JavaFX deployment.
-
-### What's included in the quickstart?
-
-This project demonstrates basic usage of TornadoFX, including:
-
-- Generate a `View` from *FXML*
-- Interact asynchroniusly with a Controller
-- Use the REST interface and JSON object model
-- Styling with CSS
-- Internationalization with resource bundles
-- Logging
 
 ### Deployment
 
