@@ -1,11 +1,6 @@
 package $package
 
-import tornadofx.App
-import tornadofx.importStylesheet
 import ${package}.view.MainView
+import tornadofx.App
 
-class MyApp: App(MainView::class) {
-    init {
-        importStylesheet(Styles::class)
-    }
-}
+class MyApp: App(MainView::class, Styles::class)
