@@ -1,4 +1,4 @@
-package ${package}.view
+package ${package}.views
 
 import ${package}.Styles
 import javafx.scene.control.Alert.AlertType.INFORMATION
