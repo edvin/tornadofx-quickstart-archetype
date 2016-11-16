@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>no.tornado</groupId>
     <artifactId>tornadofx-quickstart-archetype</artifactId>
-    <version>1.5.6</version>
+    <version>1.5.8</version>
     <packaging>maven-archetype</packaging>
     <name>TornadoFX Quick Start Archetype</name>
     <description>TornadoFX Quick Start Archetype with minimal sample application</description>
