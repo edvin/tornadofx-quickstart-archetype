@@ -1,6 +1,7 @@
 package $package
 
-import ${package}.view.MainView
+import ${package}.views.MainView
+import javafx.application.Application
 import tornadofx.App
 
 class MyApp: App(MainView::class, Styles::class)
